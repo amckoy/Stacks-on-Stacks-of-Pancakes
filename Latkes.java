@@ -27,8 +27,8 @@ public class Latkes {
 	    String[] _newStack = new String[_stack.length * 2];
 	    for(int i = 0; i < _stack.length; i++){
 		_newStack[i] = _stack[i];
-		_stack = _newStack;
 	    }
+	    _stack = _newStack;
 	}
 	_stack[_stackSize] = s;
 	_stackSize++;
